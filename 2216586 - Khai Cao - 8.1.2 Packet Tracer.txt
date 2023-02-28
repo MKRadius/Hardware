@@ -1,0 +1,5 @@
+What messages did you see after the web page has finished loading?
+
+The web page displayed: 
+Welcome to the Learn IP Web Site
+You were able to reach this website because you had the IP address of the web server. The connecting PC also has a web client running on the device.

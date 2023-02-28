@@ -1,0 +1,21 @@
+Part 1
+Is this a private or public address?
+
+IP address: 209.165.200.227 
+This is a public address
+
+
+
+Part 2
+Are these private or public addresses?
+
+Start IP address: 192.168.1.100
+End IP address: 192.168.1.149
+These are private addresses
+
+
+
+Part 5
+
+In the internet headers, the changed fields are destination address and source address
+In the IP headers, the changed fields are source IP and TTL

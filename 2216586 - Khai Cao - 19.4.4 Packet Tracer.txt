@@ -1,0 +1,57 @@
+1. Why were the pings not successful?
+The router's default gateways are not configured.
+
+
+2.Were the pings successful? Explain.
+The pings were successful because the R1 router ports are on, which created a traffic between PCA and PCB.
+
+
+3.What is the name of the IOS image that the router is running?
+System image file is "bootflash:/isr4300-universalk9.03.16.05.S.155-3.S5-ext.SPA.bin"
+
+
+4.What is IOS software image and version running on the switch?
+Cisco IOS Software, C2960 Software (C2960-LANBASE-M), Version 12.2(25)FX, RELEASE SOFTWARE (fc1)
+
+
+5.What is the model number of the switch?
+Cisco WS-C2960-24TT (RC32300)
+
+
+6.What code is used in the routing table to indicate a directly connected network?
+Code "C"
+
+
+7.How many route entries are coded with a C code in the routing table?
+2 route intries
+
+
+8.What interface types are associated to the C coded routes?
+GigabitEthernet0/0/0 and GigabitEthernet0/0/1
+
+
+9.What is the operational status of the G0/0/1 interface?
+GigabitEthernet0/0/1 is up, line protocol is up (connected)
+
+
+10.What is the Media Access Control (MAC) address of the G0/01 interface?
+Address is 0060.3edc.7802
+
+
+11.How is the Internet address displayed in this command?
+The "show interfaces" command displays information about the physical and data link layers of the interface, such as the interface type, speed, duplex settings, input/output statistics, and error counters.
+
+
+12.What is the displayed message?
+The configured banner MOTD is displayed.
+
+
+
+Reflection
+1.If the G0/0/1 interface showed administratively down, what interface configuration command would you use to turn the interface up?
+R1(config-if)# no shutdown
+
+2.What would happen if you had incorrectly configured interface G0/0/1 on the router with an IP address of 192.168.1.2?
+PCA won't be able to ping PCB.
+
+
